@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Kindelan Nuñez
+    given-names: Rolando
+    orcid: https://orcid.org/0000-0002-4948-6051
+title: "Source code for paper A TDA-based Classifier"
+version: 0.0.2
+date-released: 2022-02-02

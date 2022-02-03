@@ -1,0 +1,757 @@
+21.10.18__09.47.47:: TestKRNN_ROCAUC::dirty_work :~*~>> INFO::#### INIT ALL EXPERIMENTS with this arguments {'option': 3, 'dtype': 15, 'folder': './docs/DATA_TRANSFORMATION/NONE', 'iterations': 0, 'number_of_datasets': 16, 'data_transformation_type': 0, 'csv_output': True, 'metric': 'euclidean', 'time_suffix': '21.10.18_09.47.44', 'dataset_type': <dataset_tools.dataset_types.DatasetTypeHandler object at 0x7fc955c4f250>, 'data_index': 0}
+21.10.18__09.47.47:: TestKRNN_ROCAUC::dirty_work :~*~>> INFO::Creating Repeated Cross Validaton
+21.10.18__09.47.47:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+21.10.18__09.47.47:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=0
+21.10.18__09.47.47:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.47.59:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.47.59:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.47.59:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.48.00:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=0
+21.10.18__09.48.00:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.48.11:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.48.11:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.48.11:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.48.12:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=0
+21.10.18__09.48.12:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.48.23:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.48.23:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.732942998462375: DEATH
+21.10.18__09.48.23:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.48.24:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=1
+21.10.18__09.48.24:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.48.36:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.48.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.48.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.48.37:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=1
+21.10.18__09.48.37:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.48.48:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.48.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.48.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.48.49:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=1
+21.10.18__09.48.49:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.49.00:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.49.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.732942998462375: DEATH
+21.10.18__09.49.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.49.02:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=2
+21.10.18__09.49.02:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.49.14:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.49.14:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.49.14:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.49.23:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=2
+21.10.18__09.49.23:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.49.35:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.49.35:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.49.35:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.49.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=2
+21.10.18__09.49.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.49.49:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.49.49:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.742527878176045: DEATH
+21.10.18__09.49.49:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.49.50:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=3
+21.10.18__09.49.50:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.50.01:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.50.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.50.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.50.10:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=3
+21.10.18__09.50.10:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.50.21:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.50.21:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.50.21:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.50.24:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=3
+21.10.18__09.50.24:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.50.36:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.50.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.73222598410621: DEATH
+21.10.18__09.50.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.50.37:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=4
+21.10.18__09.50.37:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.50.48:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.50.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.50.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.50.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=4
+21.10.18__09.50.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.51.00:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.51.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.51.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.51.01:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=4
+21.10.18__09.51.01:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.51.12:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.51.12:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.975840001523622: DEATH
+21.10.18__09.51.12:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.51.13:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=5
+21.10.18__09.51.13:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.51.24:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.51.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.51.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.51.25:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=5
+21.10.18__09.51.25:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.51.36:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.51.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.51.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.51.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=5
+21.10.18__09.51.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.51.50:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.51.50:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.732942998462375: DEATH
+21.10.18__09.51.50:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.51.52:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=6
+21.10.18__09.51.52:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.52.03:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.52.03:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.52.04:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.52.12:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=6
+21.10.18__09.52.12:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.52.23:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.52.23:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.52.23:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.52.26:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=6
+21.10.18__09.52.26:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.52.39:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.52.39:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.204877105911148: DEATH
+21.10.18__09.52.39:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.52.43:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=7
+21.10.18__09.52.43:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.52.55:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.52.55:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.52.55:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.52.56:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=7
+21.10.18__09.52.56:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.53.07:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.53.07:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.53.07:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.53.09:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=7
+21.10.18__09.53.09:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.53.20:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.53.20:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.9329844583634: DEATH
+21.10.18__09.53.20:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.53.23:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=8
+21.10.18__09.53.23:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.53.35:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.53.35:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.53.35:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.53.36:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=8
+21.10.18__09.53.36:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.53.47:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.53.47:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.53.47:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.53.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=8
+21.10.18__09.53.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.54.01:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.54.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.860789746444002: DEATH
+21.10.18__09.54.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.54.03:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=9
+21.10.18__09.54.03:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.54.16:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.54.16:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.54.16:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.54.17:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=9
+21.10.18__09.54.17:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.54.29:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.54.29:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.54.29:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.54.35:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=9
+21.10.18__09.54.35:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.54.47:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.54.47:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.764299799321453: DEATH
+21.10.18__09.54.47:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.54.48:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+21.10.18__09.54.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=0
+21.10.18__09.54.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.55.00:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.55.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.55.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.55.01:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=0
+21.10.18__09.55.01:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.55.12:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.55.12:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.55.12:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.55.14:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=0
+21.10.18__09.55.14:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.55.27:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.55.27:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.98908270151671: DEATH
+21.10.18__09.55.27:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.55.30:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=1
+21.10.18__09.55.30:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.55.41:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.55.41:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.55.41:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.55.42:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=1
+21.10.18__09.55.42:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.55.53:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.55.53:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.55.53:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.55.55:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=1
+21.10.18__09.55.55:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.56.07:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.56.07:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.742527878176045: DEATH
+21.10.18__09.56.07:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.56.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=2
+21.10.18__09.56.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.56.21:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.56.21:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.56.21:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.56.32:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=2
+21.10.18__09.56.32:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.56.44:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.56.44:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.56.44:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.56.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=2
+21.10.18__09.56.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.57.04:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.57.04:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.282864156644866: DEATH
+21.10.18__09.57.04:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.57.18:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=3
+21.10.18__09.57.18:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.57.30:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.57.30:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.57.30:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.57.40:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=3
+21.10.18__09.57.40:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.57.53:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.57.53:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.57.53:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.57.57:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=3
+21.10.18__09.57.57:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.58.12:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.58.12:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.03754378680198: DEATH
+21.10.18__09.58.12:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.58.17:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=4
+21.10.18__09.58.17:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.58.31:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.58.31:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.58.31:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.58.31:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=4
+21.10.18__09.58.31:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.58.46:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.58.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.58.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.58.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=4
+21.10.18__09.58.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.59.00:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.59.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.696226607712614: DEATH
+21.10.18__09.59.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.59.01:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=5
+21.10.18__09.59.01:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.59.14:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.59.14:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__09.59.14:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.59.15:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=5
+21.10.18__09.59.15:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.59.28:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.59.28:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__09.59.28:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__09.59.31:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=5
+21.10.18__09.59.31:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__09.59.46:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__09.59.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 16.02876969807492: DEATH
+21.10.18__09.59.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.00.10:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=6
+21.10.18__10.00.10:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.00.24:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.00.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.00.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.00.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=6
+21.10.18__10.00.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.00.46:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.00.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.00.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.00.49:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=6
+21.10.18__10.00.49:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.01.01:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.01.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.964037015033705: DEATH
+21.10.18__10.01.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.01.05:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=7
+21.10.18__10.01.05:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.01.20:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.01.20:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.01.20:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.01.21:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=7
+21.10.18__10.01.21:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.01.34:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.01.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.01.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.01.37:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=7
+21.10.18__10.01.37:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.01.51:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.01.51:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.767635854492545: DEATH
+21.10.18__10.01.51:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.01.52:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=8
+21.10.18__10.01.52:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.02.07:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.02.07:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.02.07:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.02.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=8
+21.10.18__10.02.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.02.20:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.02.20:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.02.20:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.02.21:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=8
+21.10.18__10.02.21:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.02.34:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.02.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.708826103492841: DEATH
+21.10.18__10.02.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.02.36:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=9
+21.10.18__10.02.36:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.02.49:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.02.49:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.02.49:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.02.50:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=9
+21.10.18__10.02.50:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.03.01:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.03.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.03.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.03.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=9
+21.10.18__10.03.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.03.19:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.03.19:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.300886225586103: DEATH
+21.10.18__10.03.19:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.03.20:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+21.10.18__10.03.20:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=0
+21.10.18__10.03.20:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.03.32:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.03.32:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.03.32:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.03.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=0
+21.10.18__10.03.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.03.45:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.03.45:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.03.45:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.03.47:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=0
+21.10.18__10.03.47:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.03.59:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.03.59:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.53734411507449: DEATH
+21.10.18__10.03.59:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.04.05:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=1
+21.10.18__10.04.05:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.04.18:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.04.18:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.04.18:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.04.19:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=1
+21.10.18__10.04.19:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.04.31:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.04.31:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.04.31:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.04.32:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=1
+21.10.18__10.04.32:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.04.45:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.04.45:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.272223764852184: DEATH
+21.10.18__10.04.45:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.04.47:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=2
+21.10.18__10.04.47:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.05.02:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.05.02:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.05.02:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.05.14:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=2
+21.10.18__10.05.14:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.05.28:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.05.28:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.05.28:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.05.32:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=2
+21.10.18__10.05.32:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.05.46:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.05.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.13530799945639: DEATH
+21.10.18__10.05.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.05.52:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=3
+21.10.18__10.05.52:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.06.08:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.06.08:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.06.08:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.06.23:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=3
+21.10.18__10.06.23:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.06.41:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.06.41:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.06.41:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.06.45:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=3
+21.10.18__10.06.45:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.07.01:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.07.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.742527878176045: DEATH
+21.10.18__10.07.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.07.02:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=4
+21.10.18__10.07.02:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.07.19:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.07.19:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.07.19:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.07.20:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=4
+21.10.18__10.07.20:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.07.37:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.07.37:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.07.37:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.07.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=4
+21.10.18__10.07.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.07.55:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.07.55:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.611538751437337: DEATH
+21.10.18__10.07.55:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.07.57:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=5
+21.10.18__10.07.57:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.08.13:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.08.13:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.08.13:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.08.15:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=5
+21.10.18__10.08.15:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.08.29:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.08.29:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.08.29:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.08.32:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=5
+21.10.18__10.08.32:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.08.48:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.08.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.708826103492841: DEATH
+21.10.18__10.08.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.08.49:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=6
+21.10.18__10.08.49:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.09.04:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.09.04:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.09.04:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.09.16:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=6
+21.10.18__10.09.16:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.09.34:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.09.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.09.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.09.39:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=6
+21.10.18__10.09.39:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.09.54:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.09.54:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.89757119797419: DEATH
+21.10.18__10.09.54:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.09.56:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=7
+21.10.18__10.09.56:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.10.11:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.10.11:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.10.11:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.10.13:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=7
+21.10.18__10.10.13:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.10.31:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.10.31:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.10.31:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.10.35:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=7
+21.10.18__10.10.35:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.10.52:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.10.52:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.10.52:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.10.56:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=8
+21.10.18__10.10.56:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.11.11:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.11.11:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.11.11:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.11.12:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=8
+21.10.18__10.11.12:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.11.29:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.11.29:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.11.29:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.11.31:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=8
+21.10.18__10.11.31:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.11.49:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.11.49:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.850868725911814: DEATH
+21.10.18__10.11.49:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.11.51:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=9
+21.10.18__10.11.51:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.12.06:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.12.06:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.12.06:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.12.06:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=9
+21.10.18__10.12.06:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.12.20:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.12.20:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.12.21:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.12.28:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=9
+21.10.18__10.12.28:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.12.43:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.12.43:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.064032348615278: DEATH
+21.10.18__10.12.43:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.12.52:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+21.10.18__10.12.52:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=0
+21.10.18__10.12.52:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.13.05:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.13.05:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.13.05:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.13.07:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=0
+21.10.18__10.13.07:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.13.22:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.13.22:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.13.22:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.13.24:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=0
+21.10.18__10.13.24:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.13.38:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.13.38:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.98908270151671: DEATH
+21.10.18__10.13.38:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.13.42:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=1
+21.10.18__10.13.42:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.13.57:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.13.57:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.13.57:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.13.58:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=1
+21.10.18__10.13.58:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.14.17:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.14.17:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.14.17:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.14.19:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=1
+21.10.18__10.14.19:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.14.34:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.14.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.14.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.14.37:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=2
+21.10.18__10.14.37:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.14.51:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.14.51:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.14.51:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.15.03:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=2
+21.10.18__10.15.03:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.15.18:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.15.18:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.15.18:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.15.22:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=2
+21.10.18__10.15.22:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.15.36:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.15.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.708826103492841: DEATH
+21.10.18__10.15.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.15.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=3
+21.10.18__10.15.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.15.55:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.15.55:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.15.55:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.16.07:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=3
+21.10.18__10.16.07:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.16.22:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.16.22:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.16.22:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.16.26:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=3
+21.10.18__10.16.26:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.16.44:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.16.44:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.136921916517739: DEATH
+21.10.18__10.16.44:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.16.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=4
+21.10.18__10.16.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.17.04:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.17.04:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.17.04:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.17.05:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=4
+21.10.18__10.17.05:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.17.19:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.17.19:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.17.19:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.17.21:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=4
+21.10.18__10.17.21:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.17.35:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.17.35:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.182997113533508: DEATH
+21.10.18__10.17.35:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.17.36:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=5
+21.10.18__10.17.36:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.17.51:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.17.51:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.17.51:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.17.52:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=5
+21.10.18__10.17.52:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.18.07:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.18.07:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.18.07:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.18.10:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=5
+21.10.18__10.18.10:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.18.24:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.18.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.306258706752022: DEATH
+21.10.18__10.18.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.18.26:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=6
+21.10.18__10.18.26:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.18.40:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.18.40:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.18.40:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.18.50:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=6
+21.10.18__10.18.50:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.19.04:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.19.04:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.19.04:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.19.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=6
+21.10.18__10.19.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.19.22:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.19.22:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.98139598868846: DEATH
+21.10.18__10.19.22:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.19.27:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=7
+21.10.18__10.19.27:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.19.42:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.19.42:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.19.42:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.19.44:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=7
+21.10.18__10.19.44:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.19.59:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.19.59:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.19.59:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.20.02:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=7
+21.10.18__10.20.02:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.20.16:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.20.16:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.832349459595084: DEATH
+21.10.18__10.20.16:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.20.18:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=8
+21.10.18__10.20.18:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.20.32:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.20.32:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.20.32:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.20.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=8
+21.10.18__10.20.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.20.48:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.20.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.20.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.20.49:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=8
+21.10.18__10.20.49:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.21.05:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.21.05:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.98908270151671: DEATH
+21.10.18__10.21.05:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.21.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=9
+21.10.18__10.21.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.21.23:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.21.23:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.21.23:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.21.24:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=9
+21.10.18__10.21.24:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.21.40:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.21.40:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.21.40:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.21.47:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=9
+21.10.18__10.21.47:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.22.01:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.22.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.22.01:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.22.09:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+21.10.18__10.22.09:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=0
+21.10.18__10.22.09:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.22.24:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.22.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.22.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.22.25:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=0
+21.10.18__10.22.25:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.22.40:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.22.40:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.22.40:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.22.42:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=0
+21.10.18__10.22.42:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.22.57:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.22.57:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.189894691975875: DEATH
+21.10.18__10.22.57:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.22.59:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=1
+21.10.18__10.22.59:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.23.13:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.23.13:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.23.13:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.23.14:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=1
+21.10.18__10.23.14:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.23.32:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.23.32:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.23.32:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.23.34:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=1
+21.10.18__10.23.34:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.23.48:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.23.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 16.069877426418852: DEATH
+21.10.18__10.23.48:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.24.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=2
+21.10.18__10.24.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.24.24:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.24.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.24.24:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.24.35:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=2
+21.10.18__10.24.35:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.24.50:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.24.51:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.24.51:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.24.55:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=2
+21.10.18__10.24.55:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.25.10:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.25.10:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.708826103492841: DEATH
+21.10.18__10.25.10:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.25.11:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=3
+21.10.18__10.25.11:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.25.27:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.25.27:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.25.27:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.25.39:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=3
+21.10.18__10.25.39:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.25.54:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.25.54:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.25.54:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.26.00:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=3
+21.10.18__10.26.00:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.26.14:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.26.14:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.674941364666639: DEATH
+21.10.18__10.26.14:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.26.16:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=4
+21.10.18__10.26.16:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.26.32:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.26.32:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.26.32:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.26.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=4
+21.10.18__10.26.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.26.46:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.26.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.26.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.26.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=4
+21.10.18__10.26.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.27.02:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.27.02:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.825163125955324: DEATH
+21.10.18__10.27.02:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.27.04:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=5
+21.10.18__10.27.04:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.27.20:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.27.20:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.27.20:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.27.21:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=5
+21.10.18__10.27.21:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.27.37:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.27.37:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.27.37:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.27.40:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=5
+21.10.18__10.27.40:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.27.54:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.27.54:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 14.718523644572258: DEATH
+21.10.18__10.27.54:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.27.55:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=6
+21.10.18__10.27.55:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.28.10:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.28.10:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.28.10:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.28.21:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=6
+21.10.18__10.28.21:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.28.36:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.28.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.28.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.28.40:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=6
+21.10.18__10.28.40:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.28.57:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.28.57:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.28.57:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.29.02:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=7
+21.10.18__10.29.02:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.29.16:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.29.16:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.29.16:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.29.18:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=7
+21.10.18__10.29.18:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.29.34:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.29.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.29.34:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.29.37:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=7
+21.10.18__10.29.37:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.29.53:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.29.53:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.21631283394553: DEATH
+21.10.18__10.29.53:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.30.01:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=8
+21.10.18__10.30.01:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.30.15:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.30.15:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.30.15:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.30.16:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=8
+21.10.18__10.30.16:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.30.31:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.30.31:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.30.31:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.30.32:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=8
+21.10.18__10.30.32:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.30.46:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.30.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 16.02876969807492: DEATH
+21.10.18__10.30.46:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.31.02:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=30, n=9
+21.10.18__10.31.02:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.31.19:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.31.19:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.287842784500883: DEATH
+21.10.18__10.31.19:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.31.19:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=30, n=9
+21.10.18__10.31.19:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.31.36:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.31.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.039813042088674: DEATH
+21.10.18__10.31.36:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH
+21.10.18__10.31.44:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=NORMAL_DIST STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=30, n=9
+21.10.18__10.31.44:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7fc944a57580> and dim 3
+21.10.18__10.32.00:: TDABasedClassifierUsingLinkPropagation::build_filtered_simplicial_complex :~*~>> INFO::Persistence by default
+21.10.18__10.32.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Selected Persistence interval 15.192293911402603: DEATH
+21.10.18__10.32.00:: TDABasedClassifierUsingLinkPropagation::predict :~*~>> INFO::Prune above persistence interval DEATH

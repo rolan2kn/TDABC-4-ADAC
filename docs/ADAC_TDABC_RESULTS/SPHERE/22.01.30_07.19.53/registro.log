@@ -1,0 +1,1007 @@
+22.01.30__07.19.53:: TestKRNN_ROCAUC::dirty_work :~*~>> INFO::#### INIT ALL EXPERIMENTS with this arguments {'option': 3, 'dtype': 15, 'folder': './docs/ADAC_TDABC_RESULTS_TEST', 'iterations': 0, 'number_of_datasets': 16, 'data_transformation_type': 7, 'csv_output': True, 'metric': 'euclidean', 'time_suffix': '22.01.30_07.19.53', 'dataset_type': <dataset_tools.dataset_types.DatasetTypeHandler object at 0x7efed9a61e80>, 'data_index': 0}
+22.01.30__07.19.53:: TestKRNN_ROCAUC::dirty_work :~*~>> INFO::Creating Repeated Cross Validaton
+22.01.30__07.19.53:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+22.01.30__07.19.53:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=0
+22.01.30__07.19.53:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.19.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.19.54:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=0
+22.01.30__07.19.54:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.240467929168418: DEATH
+22.01.30__07.19.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.240467929168418
+22.01.30__07.19.54:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=0
+22.01.30__07.19.54:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.28808769611822954: DEATH
+22.01.30__07.19.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.28808769611822954
+22.01.30__07.19.54:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=0
+22.01.30__07.19.54:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.19.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.19.54:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=0
+22.01.30__07.19.54:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.55:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.19.55:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.19.55:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=1
+22.01.30__07.19.55:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.19.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.19.56:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=1
+22.01.30__07.19.56:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.19.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.19.56:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=1
+22.01.30__07.19.56:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.1909249864040596: DEATH
+22.01.30__07.19.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.1909249864040596
+22.01.30__07.19.56:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=1
+22.01.30__07.19.56:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.19.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.19.56:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=1
+22.01.30__07.19.56:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.57:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.19.57:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.19.58:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=2
+22.01.30__07.19.58:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.58:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.19.58:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.19.58:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=2
+22.01.30__07.19.58:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.58:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.19.58:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.19.58:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=2
+22.01.30__07.19.58:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23441341184431735: DEATH
+22.01.30__07.19.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23441341184431735
+22.01.30__07.19.59:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=2
+22.01.30__07.19.59:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.19.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.19.59:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=2
+22.01.30__07.19.59:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.19.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.19.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.00:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=3
+22.01.30__07.20.00:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.00:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.00:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.00:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=3
+22.01.30__07.20.00:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.00:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.00:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.00:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=3
+22.01.30__07.20.00:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.5456760721250029: DEATH
+22.01.30__07.20.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.5456760721250029
+22.01.30__07.20.01:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=3
+22.01.30__07.20.01:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.01:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=3
+22.01.30__07.20.01:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.02:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=4
+22.01.30__07.20.02:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.02:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.02:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.02:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=4
+22.01.30__07.20.02:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.02:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.02:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.03:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=4
+22.01.30__07.20.03:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.19615333019344916: DEATH
+22.01.30__07.20.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.19615333019344916
+22.01.30__07.20.03:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=4
+22.01.30__07.20.03:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.03:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=4
+22.01.30__07.20.03:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.04:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=5
+22.01.30__07.20.04:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.04:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.04:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.04:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=5
+22.01.30__07.20.04:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.04:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.04:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.05:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=5
+22.01.30__07.20.05:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.7257312535710846: DEATH
+22.01.30__07.20.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.7257312535710846
+22.01.30__07.20.05:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=5
+22.01.30__07.20.05:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.05:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=5
+22.01.30__07.20.05:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.06:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=6
+22.01.30__07.20.06:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.06:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.06:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.06:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=6
+22.01.30__07.20.06:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.06:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.07:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=6
+22.01.30__07.20.07:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2761369221163872: DEATH
+22.01.30__07.20.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2761369221163872
+22.01.30__07.20.07:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=6
+22.01.30__07.20.07:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.07:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=6
+22.01.30__07.20.07:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=7
+22.01.30__07.20.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.08:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.08:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=7
+22.01.30__07.20.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.09:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=7
+22.01.30__07.20.09:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.22410950079850298: DEATH
+22.01.30__07.20.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.22410950079850298
+22.01.30__07.20.09:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=7
+22.01.30__07.20.09:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.09:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=7
+22.01.30__07.20.09:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.10:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=8
+22.01.30__07.20.10:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.10:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.10:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.10:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=8
+22.01.30__07.20.10:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.11:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=8
+22.01.30__07.20.11:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.22038172975715106: DEATH
+22.01.30__07.20.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.22038172975715106
+22.01.30__07.20.11:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=8
+22.01.30__07.20.11:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.11:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=8
+22.01.30__07.20.11:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.12:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=9
+22.01.30__07.20.12:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.12:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.12:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.12:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=9
+22.01.30__07.20.12:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.13:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=9
+22.01.30__07.20.13:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.24418858124833545: DEATH
+22.01.30__07.20.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.24418858124833545
+22.01.30__07.20.13:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=9
+22.01.30__07.20.13:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.13:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=9
+22.01.30__07.20.13:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.14:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+22.01.30__07.20.14:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=0
+22.01.30__07.20.14:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.15:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=0
+22.01.30__07.20.15:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.15:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.240467929168418: DEATH
+22.01.30__07.20.15:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.240467929168418
+22.01.30__07.20.15:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=0
+22.01.30__07.20.15:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.15:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.3376925722569729: DEATH
+22.01.30__07.20.15:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.3376925722569729
+22.01.30__07.20.15:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=0
+22.01.30__07.20.15:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.15:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.15:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.15:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=0
+22.01.30__07.20.15:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.16:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=1
+22.01.30__07.20.16:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.17:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=1
+22.01.30__07.20.17:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.17:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.17:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.17:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=1
+22.01.30__07.20.17:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.17:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.22038172975715106: DEATH
+22.01.30__07.20.17:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.22038172975715106
+22.01.30__07.20.17:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=1
+22.01.30__07.20.17:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.17:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.17:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.17:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=1
+22.01.30__07.20.17:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.18:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.18:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.18:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=2
+22.01.30__07.20.18:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.19:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=2
+22.01.30__07.20.19:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.19:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=2
+22.01.30__07.20.19:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.17468684316468183: DEATH
+22.01.30__07.20.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.17468684316468183
+22.01.30__07.20.19:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=2
+22.01.30__07.20.19:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.20:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=2
+22.01.30__07.20.20:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.20:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.20:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.20:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=3
+22.01.30__07.20.20:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.21:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=3
+22.01.30__07.20.21:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.21:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=3
+22.01.30__07.20.21:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.35171255686593916: DEATH
+22.01.30__07.20.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.35171255686593916
+22.01.30__07.20.21:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=3
+22.01.30__07.20.21:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.22:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=3
+22.01.30__07.20.22:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.23:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=4
+22.01.30__07.20.23:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.23:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=4
+22.01.30__07.20.23:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.23:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=4
+22.01.30__07.20.23:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2980552220070252: DEATH
+22.01.30__07.20.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2980552220070252
+22.01.30__07.20.23:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=4
+22.01.30__07.20.23:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.24:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.24:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.24:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=4
+22.01.30__07.20.24:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.24:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.24:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.25:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=5
+22.01.30__07.20.25:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.25:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=5
+22.01.30__07.20.25:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.25:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=5
+22.01.30__07.20.25:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.46397435721303826: DEATH
+22.01.30__07.20.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.46397435721303826
+22.01.30__07.20.26:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=5
+22.01.30__07.20.26:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.26:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.26:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.26:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=5
+22.01.30__07.20.26:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.26:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.26:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.27:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=6
+22.01.30__07.20.27:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.27:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=6
+22.01.30__07.20.27:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.27:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=6
+22.01.30__07.20.27:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.28:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.24149408109626277: DEATH
+22.01.30__07.20.28:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.24149408109626277
+22.01.30__07.20.28:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=6
+22.01.30__07.20.28:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.28:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.28:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.28:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=6
+22.01.30__07.20.28:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.28:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.28:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.29:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=7
+22.01.30__07.20.29:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.29:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=7
+22.01.30__07.20.29:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.29:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=7
+22.01.30__07.20.29:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.30:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2679719863399464: DEATH
+22.01.30__07.20.30:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2679719863399464
+22.01.30__07.20.30:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=7
+22.01.30__07.20.30:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.30:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.30:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.30:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=7
+22.01.30__07.20.30:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.30:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.30:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.31:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=8
+22.01.30__07.20.31:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.31:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=8
+22.01.30__07.20.31:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.32:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=8
+22.01.30__07.20.32:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.32:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2679719863399464: DEATH
+22.01.30__07.20.32:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2679719863399464
+22.01.30__07.20.32:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=8
+22.01.30__07.20.32:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.32:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.32:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.32:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=8
+22.01.30__07.20.32:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.32:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.32:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=9
+22.01.30__07.20.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=9
+22.01.30__07.20.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.34:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=9
+22.01.30__07.20.34:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.4208029594107105: DEATH
+22.01.30__07.20.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.4208029594107105
+22.01.30__07.20.34:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=9
+22.01.30__07.20.34:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.34:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=9
+22.01.30__07.20.34:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.35:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+22.01.30__07.20.35:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=0
+22.01.30__07.20.35:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.35:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.35:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.35:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=0
+22.01.30__07.20.35:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.240467929168418: DEATH
+22.01.30__07.20.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.240467929168418
+22.01.30__07.20.36:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=0
+22.01.30__07.20.36:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.08380422704184244: DEATH
+22.01.30__07.20.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.08380422704184244
+22.01.30__07.20.36:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=0
+22.01.30__07.20.36:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.36:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=0
+22.01.30__07.20.36:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.37:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=1
+22.01.30__07.20.37:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.37:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.37:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.37:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=1
+22.01.30__07.20.37:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=1
+22.01.30__07.20.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.19615333019344916: DEATH
+22.01.30__07.20.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.19615333019344916
+22.01.30__07.20.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=1
+22.01.30__07.20.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=1
+22.01.30__07.20.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.39:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=2
+22.01.30__07.20.39:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.39:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.39:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.39:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=2
+22.01.30__07.20.39:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.40:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.40:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.40:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=2
+22.01.30__07.20.40:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.40:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.14473049848914044: DEATH
+22.01.30__07.20.40:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.14473049848914044
+22.01.30__07.20.40:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=2
+22.01.30__07.20.40:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.40:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.40:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.40:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=2
+22.01.30__07.20.40:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.41:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.41:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.41:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=3
+22.01.30__07.20.41:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.41:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.41:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.42:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=3
+22.01.30__07.20.42:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.42:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.42:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.42:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=3
+22.01.30__07.20.42:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.42:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2679719863399464: DEATH
+22.01.30__07.20.42:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2679719863399464
+22.01.30__07.20.42:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=3
+22.01.30__07.20.42:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.42:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.42:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.42:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=3
+22.01.30__07.20.42:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.43:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.43:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.43:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=4
+22.01.30__07.20.43:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.44:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.44:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.44:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=4
+22.01.30__07.20.44:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.44:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.44:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.44:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=4
+22.01.30__07.20.44:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.44:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.5456760721250029: DEATH
+22.01.30__07.20.44:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.5456760721250029
+22.01.30__07.20.44:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=4
+22.01.30__07.20.44:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.44:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.44:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.45:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=4
+22.01.30__07.20.45:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.45:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.45:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.45:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=5
+22.01.30__07.20.45:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.46:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.46:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.46:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=5
+22.01.30__07.20.46:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.46:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.46:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.46:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=5
+22.01.30__07.20.46:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.46:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.3453108532635715: DEATH
+22.01.30__07.20.46:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.3453108532635715
+22.01.30__07.20.46:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=5
+22.01.30__07.20.46:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.47:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.47:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.47:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=5
+22.01.30__07.20.47:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.47:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.47:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=6
+22.01.30__07.20.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.48:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.48:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=6
+22.01.30__07.20.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.48:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.48:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=6
+22.01.30__07.20.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.48:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.46397435721303826: DEATH
+22.01.30__07.20.48:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.46397435721303826
+22.01.30__07.20.48:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=6
+22.01.30__07.20.48:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.49:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.49:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.49:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=6
+22.01.30__07.20.49:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.49:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.49:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.50:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=7
+22.01.30__07.20.50:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.50:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.50:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.50:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=7
+22.01.30__07.20.50:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.50:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.50:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.50:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=7
+22.01.30__07.20.50:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.50:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.35587669886419654: DEATH
+22.01.30__07.20.50:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.35587669886419654
+22.01.30__07.20.51:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=7
+22.01.30__07.20.51:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.51:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.51:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.51:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=7
+22.01.30__07.20.51:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.51:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.51:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.52:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=8
+22.01.30__07.20.52:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.52:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.52:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.52:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=8
+22.01.30__07.20.52:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.52:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.52:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.52:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=8
+22.01.30__07.20.52:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.53:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.4664854596337199: DEATH
+22.01.30__07.20.53:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.4664854596337199
+22.01.30__07.20.53:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=8
+22.01.30__07.20.53:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.53:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.53:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.53:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=8
+22.01.30__07.20.53:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.53:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.53:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.54:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=9
+22.01.30__07.20.54:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.54:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=9
+22.01.30__07.20.54:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.54:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.55:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=9
+22.01.30__07.20.55:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.55:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.22038172975715106: DEATH
+22.01.30__07.20.55:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.22038172975715106
+22.01.30__07.20.55:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=9
+22.01.30__07.20.55:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.55:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.55:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.55:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=9
+22.01.30__07.20.55:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.55:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.55:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.56:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+22.01.30__07.20.56:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=0
+22.01.30__07.20.56:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.56:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=0
+22.01.30__07.20.56:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.240467929168418: DEATH
+22.01.30__07.20.56:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.240467929168418
+22.01.30__07.20.57:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=0
+22.01.30__07.20.57:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.57:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.22072681570137856: DEATH
+22.01.30__07.20.57:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.22072681570137856
+22.01.30__07.20.57:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=0
+22.01.30__07.20.57:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.57:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.57:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.57:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=0
+22.01.30__07.20.57:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.57:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.57:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.20.58:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=1
+22.01.30__07.20.58:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.58:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.20.58:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.20.58:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=1
+22.01.30__07.20.58:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.20.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.20.59:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=1
+22.01.30__07.20.59:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.26317515551062154: DEATH
+22.01.30__07.20.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.26317515551062154
+22.01.30__07.20.59:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=1
+22.01.30__07.20.59:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.20.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.20.59:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=1
+22.01.30__07.20.59:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.20.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.20.59:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.00:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=2
+22.01.30__07.21.00:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.00:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.00:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.00:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=2
+22.01.30__07.21.00:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.01:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=2
+22.01.30__07.21.01:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2980552220070252: DEATH
+22.01.30__07.21.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2980552220070252
+22.01.30__07.21.01:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=2
+22.01.30__07.21.01:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.01:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.01:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=2
+22.01.30__07.21.01:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.02:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.02:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.02:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=3
+22.01.30__07.21.02:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.03:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=3
+22.01.30__07.21.03:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.03:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=3
+22.01.30__07.21.03:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.193322925500339: DEATH
+22.01.30__07.21.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.193322925500339
+22.01.30__07.21.03:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=3
+22.01.30__07.21.03:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.03:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.03:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=3
+22.01.30__07.21.03:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.04:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.04:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.04:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=4
+22.01.30__07.21.04:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.05:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=4
+22.01.30__07.21.05:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.05:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=4
+22.01.30__07.21.05:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.22038172975715106: DEATH
+22.01.30__07.21.05:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.22038172975715106
+22.01.30__07.21.05:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=4
+22.01.30__07.21.05:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.06:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.06:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.06:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=4
+22.01.30__07.21.06:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.06:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.06:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.07:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=5
+22.01.30__07.21.07:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.07:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=5
+22.01.30__07.21.07:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.07:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=5
+22.01.30__07.21.07:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.1909249864040596: DEATH
+22.01.30__07.21.07:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.1909249864040596
+22.01.30__07.21.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=5
+22.01.30__07.21.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.08:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.08:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.08:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=5
+22.01.30__07.21.08:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.08:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.08:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.09:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=6
+22.01.30__07.21.09:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.09:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=6
+22.01.30__07.21.09:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.09:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.09:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=6
+22.01.30__07.21.09:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.10:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.16863665019121288: DEATH
+22.01.30__07.21.10:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.16863665019121288
+22.01.30__07.21.10:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=6
+22.01.30__07.21.10:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.10:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.10:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.10:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=6
+22.01.30__07.21.10:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.10:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.10:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.11:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=7
+22.01.30__07.21.11:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.11:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=7
+22.01.30__07.21.11:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.11:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.11:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=7
+22.01.30__07.21.11:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.12:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.29761014262909574: DEATH
+22.01.30__07.21.12:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.29761014262909574
+22.01.30__07.21.12:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=7
+22.01.30__07.21.12:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.12:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.12:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.12:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=7
+22.01.30__07.21.12:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.12:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.12:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.13:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=8
+22.01.30__07.21.13:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.13:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=8
+22.01.30__07.21.13:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.13:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.14:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=8
+22.01.30__07.21.14:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.157633498772927: DEATH
+22.01.30__07.21.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.157633498772927
+22.01.30__07.21.14:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=8
+22.01.30__07.21.14:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.14:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=8
+22.01.30__07.21.14:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.14:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.15:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=9
+22.01.30__07.21.15:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.15:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.15:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.15:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=9
+22.01.30__07.21.15:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.16:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=9
+22.01.30__07.21.16:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2300481209784934: DEATH
+22.01.30__07.21.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2300481209784934
+22.01.30__07.21.16:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=9
+22.01.30__07.21.16:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.16:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=9
+22.01.30__07.21.16:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.16:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.17:: RepeatedCVPredictProba::execute :~*~>> INFO::EXECUTING REPEATED CROSS VALIDATION
+22.01.30__07.21.17:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=0
+22.01.30__07.21.17:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.17:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.17:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.17:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=0
+22.01.30__07.21.17:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.18:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.240467929168418: DEATH
+22.01.30__07.21.18:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.240467929168418
+22.01.30__07.21.18:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=0
+22.01.30__07.21.18:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.18:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.20393640483920739: DEATH
+22.01.30__07.21.18:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.20393640483920739
+22.01.30__07.21.18:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=0
+22.01.30__07.21.18:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.18:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.18:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.18:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=0
+22.01.30__07.21.18:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.19:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=1
+22.01.30__07.21.19:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.19:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.20:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=1
+22.01.30__07.21.20:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.20:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.20:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.20:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=1
+22.01.30__07.21.20:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.20:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23183763093625956: DEATH
+22.01.30__07.21.20:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23183763093625956
+22.01.30__07.21.20:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=1
+22.01.30__07.21.20:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.21:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=1
+22.01.30__07.21.21:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.21:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.22:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=2
+22.01.30__07.21.22:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.22:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=2
+22.01.30__07.21.22:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.22:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=2
+22.01.30__07.21.22:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.15495390085541094: DEATH
+22.01.30__07.21.22:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.15495390085541094
+22.01.30__07.21.23:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=2
+22.01.30__07.21.23:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.23:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=2
+22.01.30__07.21.23:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.23:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.24:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=3
+22.01.30__07.21.24:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.24:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.24:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.24:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=3
+22.01.30__07.21.24:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.24:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.24:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.24:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=3
+22.01.30__07.21.24:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.26040366980140467: DEATH
+22.01.30__07.21.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.26040366980140467
+22.01.30__07.21.25:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=3
+22.01.30__07.21.25:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.25:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=3
+22.01.30__07.21.25:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.25:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.26:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=4
+22.01.30__07.21.26:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.26:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.26:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.26:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=4
+22.01.30__07.21.26:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.26:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.26:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.27:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=4
+22.01.30__07.21.27:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.35171255686593916: DEATH
+22.01.30__07.21.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.35171255686593916
+22.01.30__07.21.27:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=4
+22.01.30__07.21.27:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.27:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=4
+22.01.30__07.21.27:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.27:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.28:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=5
+22.01.30__07.21.28:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.28:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.28:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.28:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=5
+22.01.30__07.21.28:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.29:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=5
+22.01.30__07.21.29:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.22038172975715106: DEATH
+22.01.30__07.21.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.22038172975715106
+22.01.30__07.21.29:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=5
+22.01.30__07.21.29:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.29:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.29:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=5
+22.01.30__07.21.29:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.30:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.30:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.30:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=6
+22.01.30__07.21.30:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.31:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=6
+22.01.30__07.21.31:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.31:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=6
+22.01.30__07.21.31:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.3703282939909951: DEATH
+22.01.30__07.21.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.3703282939909951
+22.01.30__07.21.31:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=6
+22.01.30__07.21.31:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.31:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.32:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=6
+22.01.30__07.21.32:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.32:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.32:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=7
+22.01.30__07.21.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=7
+22.01.30__07.21.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=7
+22.01.30__07.21.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.3853689752276079: DEATH
+22.01.30__07.21.33:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.3853689752276079
+22.01.30__07.21.33:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=7
+22.01.30__07.21.33:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.34:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=7
+22.01.30__07.21.34:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.34:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.35:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=8
+22.01.30__07.21.35:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.35:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.35:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.35:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=8
+22.01.30__07.21.35:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.35:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.35:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.35:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=8
+22.01.30__07.21.35:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.36189901715215883: DEATH
+22.01.30__07.21.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.36189901715215883
+22.01.30__07.21.36:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=8
+22.01.30__07.21.36:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.36:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=8
+22.01.30__07.21.36:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.36:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
+22.01.30__07.21.37:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=AVERAGE k=66, n=9
+22.01.30__07.21.37:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.37:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.2070016972040016: DEATH
+22.01.30__07.21.37:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.2070016972040016
+22.01.30__07.21.37:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=MAXIMAL k=66, n=9
+22.01.30__07.21.37:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.37:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 1.2404679291684173: DEATH
+22.01.30__07.21.37:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 1.2404679291684173
+22.01.30__07.21.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=RANDOMIZED k=66, n=9
+22.01.30__07.21.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.25638110459297697: DEATH
+22.01.30__07.21.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.25638110459297697
+22.01.30__07.21.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=HAVERAGE k=66, n=9
+22.01.30__07.21.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.13209256056400195: DEATH
+22.01.30__07.21.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.13209256056400195
+22.01.30__07.21.38:: RepeatedCVPredictProba::execute_tdabc :~*~>> INFO::EXECUTE DATANAME=SPHERE STAGE=DEATH K-FOLD SEQUENCE_TYPE=NORMAL COMPLEX=RIPS DIM=3 SELECTOR=GAVERAGE k=66, n=9
+22.01.30__07.21.38:: DirectSCBuilder::execute :~*~>> INFO::Direct generation of Simplicial Complex type: <simplicial_complex_tools.simplicial_complex_types.SimplicialComplexType object at 0x7efed9a61d60> and dim 3
+22.01.30__07.21.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Selected Persistence interval 0.23217634832890882: DEATH
+22.01.30__07.21.38:: SCSFromExplicitFiltration::post_processing :~*~>> INFO::Prune above persistence interval 0.23217634832890882
