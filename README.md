@@ -1,8 +1,7 @@
 TDAbcTK: A classification framework 
 entirely based on Topological Data Analysis
 
-* Motivation
-* Mathematical Foundations
+
 * Install:
 1. Install Anaconda
 2. make a new environment
@@ -78,7 +77,8 @@ When select a data transformation of reduction, it means that you want to perfor
 implement three algorithms PCA=0, TSNE=1, and UMAP=2 there is not interface to access to those method from the entry point.
 
 
-Any comment to Rolando Kindelan Nuñez (rolan2kn@gmail.com, rkindela@dcc.uchile.cl), twitter: @rolan2kn.
+Any comment, please do not hesitate to write a mail to Rolando Kindelan Nuñez (rolan2kn@gmail.com, rkindela@dcc.uchile.cl), twitter: @rolan2kn.
+
 
 * Execution
 
