@@ -1,3 +1,5 @@
+import os.path
+
 from utilities import utils
 import inspect
 import time
@@ -14,6 +16,9 @@ class Register:
         return time.strftime("%y.%m.%d__%H.%M.%S")
 
     def write(self, msg_type, message):
+        paths = "/".join(self.filename.split("/")[:-1])
+        if not os.path.isdir(paths):
+            os.makedirs(paths)
         self.log_file = open(self.filename, "a")
         line = self.FORMAT.format(self.get_ascii_time(), self.getframeInfo(level=3), msg_type, message)
         self.log_file.write(line)

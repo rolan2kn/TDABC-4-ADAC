@@ -37,6 +37,7 @@ class ClassificationResultsFormatter:
         self.plotter_engine = kwargs.get("graph_mode", 1)
         # self.plotter_engine = kwargs.get("graph_mode", 0)
         self.csv_output = kwargs.get("csv_output", True)
+        self.can_i_show = kwargs.get("can_i_show", False)
         self.result_dir = None
 
     def execute(self):
@@ -430,7 +431,10 @@ class ClassificationResultsFormatter:
             name = "{0}{1}_{2}_{3}_{4}.png".format(result_dir, param_name, dim, fs, suffix)
 
             plt.savefig(name)
-            plt.close(plt.gcf())
+            if not self.can_i_show:
+                plt.close(plt.gcf())
+            else:
+                plt.show()
         except Exception as e:
             Register.add_error_message(e)
             raise e
@@ -508,6 +512,8 @@ class ClassificationResultsFormatter:
         name = "{0}{1}_{2}_{3}_{4}.png".format(result_dir, param_name, dim, fs, suffix)
 
         fig.write_image(name)
+        if self.can_i_show:
+            fig.show()
 
     def plot_errorbars_matplotlib(self, dim, fs, param_name, classifier_list, result_dir, data_number):
 
@@ -574,4 +580,7 @@ class ClassificationResultsFormatter:
         name = "{0}{1}_{2}_{3}_{4}.png".format(result_dir, param_name, dim, fs, suffix)
 
         plt.savefig(name)
-        plt.close(plt.gcf())
+        if not self.can_i_show:
+            plt.close(plt.gcf())
+        else:
+            plt.show()

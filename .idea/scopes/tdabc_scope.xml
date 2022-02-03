@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="tdabc_scope" pattern="(*.py||file[TDABC-4-ADAC]:*/)&amp;&amp;!file[TDABC-4-ADAC]:.idea//*" />
+</component>

@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;)&amp;#36;today.year. TDA-4-ADAC source code for paper A TDA based classifier. &#10;@autor: Rolando Kindelan Nuñez&#10;@affiliation: University of Chile" />
+    <option name="myName" value="src" />
+  </copyright>
+</component>

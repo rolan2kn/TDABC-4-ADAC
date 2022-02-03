@@ -51,6 +51,7 @@ if __name__ == '__main__':
                   "iterations": iteration,
                   "number_of_datasets": ndatasets,
                   "csv_output": True,
+                  "can_i_show": False,
                   "metric": metric}
 
         TestKRNN_ROCAUC().execute(**kwargs)
