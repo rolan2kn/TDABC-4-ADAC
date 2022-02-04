@@ -1,8 +1,66 @@
-TDAbcTK: A classification framework 
-entirely based on Topological Data Analysis
+# TDA-based-classifier Implementation
+This implements a method to apply Topological Data Analysis (TDA) as a classifier.
 
+# Description:
 
-* Install:
+The overall idea is to use variable sized neighborhoods to perform the classification instead of
+using a fixed collection of points as the kNN family of methods does.
+
+When you connect each point of your point cloud with its k nearest-neighbors, you will get a nearest-neighbors graph as we show in the figure:
+
+<img src = "resources/nn_graph.png">
+
+Now, from a mathematical point of view, we know that a graph is a 1-dimensional simplicial complex. A graph is also the
+1-skeleton of any simplicial complex. In terms of TDA, the k-NN neighorhoods are collection of k 0-simplices (points).
+So, why we need to maintain the elements in each collecton fixed (k elements), and why those elements needs to be
+only 0-simplices (points). Actually, nothing prevents you from generalizing it.
+Our approach was to generalize the nearest-neighbors graph to be the entire the nearest-neighbors simplicial complex.
+Now, a neighbor will be a simplex and not just a point, and also you can querying neighbors from a simplices too.
+Then the Star and Link of a simplex comes to scene. Let $K$ be a simplicial complex and $\sigma \in K$ a q-simplex.
+The $star(\sigma)$ is the collection of simplices that contains $\sigma$. The star is not a simplicial complex because
+all missing faces. The $link(\sigma)$ is the collection of simplices that we need to add to turn the star(\sigma) in a
+simplicial complex called the closed star. The Figure show both concepts:
+
+<img src = "resources/starlink.png">
+
+The star and link of simplices give us the simplicial neighborhoods of a simplex in a simplicial complex. As we know, some points in
+our dataset will be labeled and the remaining ones unlabeled. So we need to figured out how to propagate labels from
+labeled to unlabeled points. Well, we can to consider simplices as relationships between points at different orders. So a 1-simplex
+(edge) means the classical relationship between two points, a 2-simplex (triangle) a relationship between tree points,
+and so on with high dimensional simplices we get high order relationships between points.
+Thus, to label a point p, we can counting the contributions of each neighbor of p. WE compute the link or the star,
+and per simplex we ask its contribution, at the end we got the contributions of the labeled points several times,
+as much as the number and dimensionality of the simplices that its belongs inside the neighborhood of p.
+The overall, the labeling approach is summarized in the following Figure:
+
+<img src = "resources/epsilon_examples23.png">
+
+This solution enrich the information that we can analyze from our data, and give us more insight. However,
+a big issue remains, how can we be sure that our simplicial complex actually represents our data? This question arises
+from the fact that we can build high number of simplicial complexes from the same point cloud.
+Even with the chosen type of simplicial complex Cech, Rips, Alpha, Witness all of them use a threshold value to obtain
+the simplices in a given level of proximity. So, which is the threshold value that we need to use in order to
+obtain a simplicial complex that accurate represent the structure of our dataset.
+
+This is a old problem, which has been studied in TDA. The common approach is to forget of any specific threshold
+and working with all of them up to a maximum defined threshold value. The idea is to explore every
+simplicial complex in each scale of the threshold value. What we get is a nested and increased collection of
+simplicial complexes each one containing the previous ones. This is called a filtration. Then we can use the TDA
+working horse "Persistent Homology (PH)" which is a technique capable to capture and understand the evolution history of
+topological features conforming the threshold value is increased. The process that we follow here, was to use PH
+to understand topologically our dataset and using that information to extract a simplicial complex from the filtration
+which approximates well enough our dataset. Then, use the aforementhioned propagation method in that sub-complex.
+
+The overall process is summarized in the Figure:
+
+<img src = "resources/overall_tdabc.png">
+
+# How to use it:
+
+## Dependencies
+
+There is a req.txt file automatically generated but it can be installed manually. We also provide a ipynb file to run.
+
 1. Install Anaconda
 2. make a new environment
 
@@ -40,7 +98,7 @@ pip install umap-learn
 
 conda install -c conda-forge h5py
 
-* Tutorial
+## Tutorial
 
 the entry point is the main.py
 
@@ -76,11 +134,7 @@ Where:
 When select a data transformation of reduction, it means that you want to perform a dimensionality reduction, we
 implement three algorithms PCA=0, TSNE=1, and UMAP=2 there is not interface to access to those method from the entry point.
 
-
-Any comment, please do not hesitate to write a mail to Rolando Kindelan Nuñez (rolan2kn@gmail.com, rkindela@dcc.uchile.cl), twitter: @rolan2kn.
-
-
-* Execution
+### Execution
 
 - To run the experiment in the eight datasets:
 
@@ -108,3 +162,10 @@ Generates n datasets 50:50, 50:100, 50:150, ..., 50:800 and executes i iteration
 and also generate the plots.
 
 NOTE that both experiments with option -o 1 are mutually excluyent and they should not run on the same directory
+
+
+Any comment, please do not hesitate to write a mail to Rolando Kindelan Nuñez ( rolan2kn@gmail.com , rkindela@dcc.uchile.cl), twitter: @rolan2kn.
+
+# Reference:
+Gatys, Leon A., et al. “A Neural Algorithm of Artistic Style.” ArXiv.org, 2 Sept. 2015, arxiv.org/abs/1508.06576.
+
