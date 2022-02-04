@@ -167,5 +167,14 @@ NOTE that both experiments with option -o 1 are mutually excluyent and they shou
 Any comment, please do not hesitate to write a mail to Rolando Kindelan Nuñez ( rolan2kn@gmail.com , rkindela@dcc.uchile.cl), twitter: @rolan2kn.
 
 # Reference:
-Gatys, Leon A., et al. “A Neural Algorithm of Artistic Style.” ArXiv.org, 2 Sept. 2015, arxiv.org/abs/1508.06576.
+Kindelan, Rolando., et al. “A Topological Data Analysis Based Classifier.” ArXiv.org, February 3rd, 2021, arxiv.org/abs/2111.05214.
+
+@misc{rol2021topological,
+    title={A Topological Data Analysis Based Classifier},
+    author={Rolando Kindelan and José Frías and Mauricio Cerda and Nancy Hitschfeld},
+    year={2021},
+    eprint={2111.05214},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
 
