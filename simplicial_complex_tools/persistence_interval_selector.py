@@ -115,6 +115,16 @@ class NaivePersistenceIntervalSelector(PersistenceIntervalSelector):
 
         return self.search_closest_pi_to_lifetime(avg_lifetime)
 
+    def closest_to_median_lifetime(self):
+        """
+        Detects the persistence interval with the closest lifetime to the median lifetime.
+
+        :return: the selected persistence interval
+        """
+        median_lifetime = self.pi_statistics.median_lifetimes()
+
+        return self.search_closest_pi_to_lifetime(median_lifetime)
+
     def closest_to_harmonic_mean_lifetime(self):
         """
         Detects the persistence interval with the closest lifetime to the harmonic mean lifetime.
@@ -194,6 +204,7 @@ class NaivePersistenceIntervalSelector(PersistenceIntervalSelector):
         randomized_pi = self.search_closest_pi_to_lifetime(selected_lifetime)
 
         return randomized_pi
+
 
 class LocalHomologyFeatureSelector(PersistenceIntervalSelector):
     def __init__(self):
