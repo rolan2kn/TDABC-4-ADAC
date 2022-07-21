@@ -140,10 +140,10 @@ class TDABasedClassifier(BaseEstimator):
 
         return eSt, fv
 
-    '''
-    Psi es la funcion de asignacion que hace corresponder un conjunto de etiquetas t \in P(T) a cada simplice sigma \in K
-    '''
     def label_propagation(self, sigma):
+        '''
+        Psi the labeling function that assigns a label set l \in P(L) to each simplex \sigma \in K
+        '''
         up_votes = self.upward_label_propagation(sigma)
         down_votes = self.downward_label_propagation(sigma)
 
@@ -236,21 +236,21 @@ class TDABasedClassifier(BaseEstimator):
             raise e
 
     '''
-    La funcion Gamma retorna un vector V, donde cada elemento 
-    v_i \in V representa la cantidad de apariciones (o votos) obtenidos por la etiqueta 
-    t_i \in T durante el calculo de Psi(\sigma).  
+    Gamma function returns a vector V, where each element
+    v_i \in V represents the number of contributions (or votes) obtained by the label l_i \in L 
+    during Psi(\sigma) computation.  
     '''
     def Gamma(self, sigma):
         try:
             V = self.label_propagation(sigma)
-            #print("Lista de Clasificacion: {0}".format(V))
+            #print("Classification list: {0}".format(V))
 
             return V
         except Exception as e:
             Register.add_error_message(e)
             raise e
 
-    # Upsilon asigna a sigma la etiqueta con mayor cantidad de votos
+    # Upsilon asigns to sigma the most voted label
     def Upsilon(self, sigma, prob=False):
         try:
             V = self.Gamma(sigma)
@@ -272,10 +272,10 @@ class TDABasedClassifier(BaseEstimator):
             raise e
 
     """
-    M es una función que dado un vector V ∈ R^L 
-    devuelve un entero 0 <= i < L, donde i es la posicion de la componente de V 
-    con valor máximo
-    Si hay mas de un valor maximo se escoge aleatoriamente.
+    M is a funtion that given a vector V ∈ R^{|L|} 
+    returns an integer 0 <= i < |L|, where i is the position of V component 
+    with maximal value
+    If there are more than one maximal value we choose one uniformly at random
     """
     def M(self, vector):
         try:
@@ -337,6 +337,8 @@ class TDABasedClassifier(BaseEstimator):
                 pi = naive_pinterval_selector.closest_to_harmonic_mean_lifetime()
             elif self.selector_handler.is_GAverage(choice):
                 pi = naive_pinterval_selector.closest_to_geometric_mean_lifetime()
+            elif self.selector_handler.is_Median(choice):
+                pi = naive_pinterval_selector.closest_to_median_lifetime()
 
             elif self.selector_handler.is_Maximal(choice):
                 pi = naive_pinterval_selector.max_lifetime_interval()
