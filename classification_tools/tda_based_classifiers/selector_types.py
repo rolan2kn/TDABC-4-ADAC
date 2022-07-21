@@ -3,8 +3,8 @@
 
 class SelectorTypeHandler:
     AVERAGE, MAXIMAL, RANDOMIZED, IQR, HAVERAGE, GAVERAGE, \
-    WAVERAGE, WHAVERAGE, WGAVERAGE, OUTSIDE = [1 << 0, 1 << 1, 1 << 2, 1 << 3, 1 << 4, 1 << 5, 1 << 6, 1 << 7, 1 << 8,
-                                               1 << 9]
+    WAVERAGE, WHAVERAGE, WGAVERAGE, MEDIAN, OUTSIDE = [1 << 0, 1 << 1, 1 << 2, 1 << 3, 1 << 4, 1 << 5, 1 << 6, 1 << 7, 1 << 8,
+                                               1 << 9, 1 << 10]
 
     def __init__(self, type=None):
         if type is None:
@@ -15,7 +15,7 @@ class SelectorTypeHandler:
     def get_selector_collection(self):
         return [SelectorTypeHandler.AVERAGE, SelectorTypeHandler.MAXIMAL, SelectorTypeHandler.RANDOMIZED,
                 SelectorTypeHandler.IQR, SelectorTypeHandler.HAVERAGE, SelectorTypeHandler.GAVERAGE,
-                SelectorTypeHandler.OUTSIDE]
+                SelectorTypeHandler.MEDIAN, SelectorTypeHandler.OUTSIDE]
 
     def modify_selectors(self, classifier_type):
         scollection = self.get_selector_collection()
@@ -40,6 +40,14 @@ class SelectorTypeHandler:
             return "HAVERAGE"
         elif ctype == SelectorTypeHandler.GAVERAGE:
             return "GAVERAGE"
+        elif ctype == SelectorTypeHandler.WAVERAGE:
+            return "WAVERAGE"
+        elif ctype == SelectorTypeHandler.WGAVERAGE:
+            return "WGAVERAGE"
+        elif ctype == SelectorTypeHandler.WHAVERAGE:
+            return "WHAVERAGE"
+        elif ctype == SelectorTypeHandler.MEDIAN:
+            return "MEDIAN"
         elif ctype == SelectorTypeHandler.OUTSIDE:
             return "OUTSIDE"
 
@@ -79,6 +87,9 @@ class SelectorTypeHandler:
 
     def is_IQR(self, choice):
         return SelectorTypeHandler.IQR in self.selector_types and choice == SelectorTypeHandler.IQR
+
+    def is_Median(self, choice):
+        return SelectorTypeHandler.MEDIAN in self.selector_types and choice == SelectorTypeHandler.MEDIAN
 
     def is_Outside(self, choice):
         return SelectorTypeHandler.OUTSIDE in self.selector_types and choice == SelectorTypeHandler.OUTSIDE
