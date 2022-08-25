@@ -5,6 +5,17 @@ authors:
     given-names: Rolando
     orcid: https://orcid.org/0000-0002-4948-6051
     arxiv: https://arxiv.org/abs/2111.05214
+keywords:
+    - topological data analysis
+    - tda
+    - classifier
+    - computational topology
 title: "Source code for A TDA-based Classifier (TDABC)"
-version: 0.0.2
+version: 0.1.2
 date-released: 2022-02-02
+url: https://arxiv.org/abs/2111.05214
+contact: rolan2kn@gmail.com
+abstract: "An implementation of a supervised and semi-supervised learning approach entirely based on TDA.
+The motivation is to open the door to new research lines regarding TDA capabilities for solving classification
+challenges by itself."
+repository-code: https://github.com/citation-file-format/ruby-cff
