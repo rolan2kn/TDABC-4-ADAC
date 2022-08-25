@@ -12,6 +12,6 @@ keywords:
 title: "Source code for A TDA-based Classifier (TDABC)"
 version: 0.1.2
 date-released: 2022-02-02
-url: "https://arxiv.org/abs/2111.05214"
+url: https://arxiv.org/abs/2111.05214
 contact: rolan2kn@gmail.com
 repository-code: https://github.com/citation-file-format/ruby-cff
