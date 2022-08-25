@@ -14,7 +14,7 @@ version: 0.1.2
 date-released: 2022-02-02
 url: https://arxiv.org/abs/2111.05214
 contact: rolan2kn@gmail.com
-abstract: "An implementation of a supervised and semi-supervised learning approach entirely based on TDA.
-The motivation is to open the door to new research lines regarding TDA capabilities for solving classification
-challenges by itself."
+abstract: "An implementation of a supervised and semi-supervised learning approach entirely based on TDA."
+"The motivation is to open the door to new research lines regarding TDA capabilities for solving classification"
+"challenges by itself."
 repository-code: https://github.com/citation-file-format/ruby-cff
