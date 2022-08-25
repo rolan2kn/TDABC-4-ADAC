@@ -4,13 +4,9 @@ authors:
   - family-names: Kindelan-Nuñez
     given-names: Rolando
     orcid: https://orcid.org/0000-0002-4948-6051
-keywords:
-    - topological data analysis
-    - tda
-    - classifier
-    - computational topology
-title: "Source code for A TDA-based Classifier (TDABC)"
+title: "Source code for the paper A TDA-based Classifier (TDABC)"
 version: 0.1.2
 date-released: 2022-02-02
+url: "https://arxiv.org/abs/2111.05214"
 contact: rolan2kn@gmail.com
 repository-code: https://github.com/citation-file-format/ruby-cff
