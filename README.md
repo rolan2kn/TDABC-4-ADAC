@@ -73,7 +73,7 @@ conda install -c conda-forge scikit-learn
 
 conda install -c conda-forge matplotlib
 
-para que funcione con latex
+to work with latex
 
 sudo apt install texlive-fonts-recommended 
 texlive-fonts-extra
