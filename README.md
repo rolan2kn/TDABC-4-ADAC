@@ -158,7 +158,7 @@ and also generate the plots.
 NOTE that both experiments with option -o 1 are mutually excluyent and they should not run on the same directory
 
 
-Any comment, please do not hesitate to write a mail to Rolando Kindelan Nuñez ( rolan2kn@gmail.com , rkindela@dcc.uchile.cl), twitter: @rolan2kn.
+Any comment, please do not hesitate to write a mail to Rolando Kindelan Nuñez ( rolan2kn.at.gmail.com , rkindela.at.dcc.uchile.cl), twitter: @rolan2kn.
 
 # Reference:
 Kindelan, Rolando., et al. “A Topological Data Analysis Based Classifier.” ArXiv.org, February 3rd, 2021, arxiv.org/abs/2111.05214.
