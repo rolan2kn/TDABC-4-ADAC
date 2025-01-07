@@ -161,6 +161,8 @@ NOTE that both experiments with option -o 1 are mutually excluyent and they shou
 Any comment, please do not hesitate to write a mail to Rolando Kindelan Nuñez ( rolan2kn.at.gmail.com , rkindela.at.dcc.uchile.cl), twitter: at.rolan2kn.
 
 # Reference:
+Kindelan, R., Frías, J., Cerda, M. et al. A topological data analysis based classifier. Adv Data Anal Classif 18, 493–538 (2024). https://doi.org/10.1007/s11634-023-00548-4.
+
 Kindelan, Rolando., et al. “A Topological Data Analysis Based Classifier.” ArXiv.org, February 3rd, 2021, arxiv.org/abs/2111.05214.
 
 @misc{rol2021topological,
